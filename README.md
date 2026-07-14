@@ -44,7 +44,7 @@ The following metrics are computed on the independent test set using optimal dec
 
 ### Calibration and Clinical Utility
 - **Calibration**: The Logistic Regression model exhibits excellent calibration (Calibration Slope $\approx$ 1.00; Intercept $\approx$ 0.00; low Integrated Calibration Information [ICI]).
-- **Clinical Utility**: Decision Curve Analysis (DCA) shows a positive net benefit for the Logistic Regression model across a wide range of clinically relevant probability thresholds (10% to 90%), outperforming the default clinical strategies of "treat all" and "treat none".
+- **Clinical Utility**: Decision Curve Analysis (DCA) demonstrates that the Logistic Regression model provides positive net benefit within the probability threshold range of 11% to 71%, outperforming the default strategies of "treat all" (empirical supplementation) and "treat none". In extreme high-risk threshold regions (e.g., above 80%), the net benefit becomes negative, suggesting that model-guided decision-making should be restricted to the moderate risk range (11%–71%), and alternative management strategies should be considered for patients in the high-risk zones.
 
 ---
 
